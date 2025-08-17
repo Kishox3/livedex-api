@@ -19,7 +19,7 @@ API sencilla para manejar una Livedex personal (registro de entradas con nombre,
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/livedex-api.git
+   git clone https://github.com/Kishox3/livedex-api.git
    cd livedex-api
    ```
 2. Instala dependencias:
