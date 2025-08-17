@@ -8,12 +8,7 @@ const cors = require('cors');
 const app = express();
 
 // CORS para frontend local (ajusta si cambias el puerto/frontend)
-app.use(cors({
-  origin: [
-    "http://localhost:8080",
-    "http://127.0.0.1:8080"
-  ]
-}));
+app.use(cors()); // Permite todos los origines temporalmente
 app.use(express.json());
 
 // Rutas

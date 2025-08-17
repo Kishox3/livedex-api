@@ -18,27 +18,29 @@ API sencilla para manejar una Livedex personal (registro de entradas con nombre,
 ## Instalación
 
 1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/Kishox3/livedex-api.git
-   cd livedex-api
-   ```
+    ```bash
+    git clone https://github.com/Kishox3/livedex-api.git
+    cd livedex-api
+    ```
+
 2. Instala dependencias:
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
+
 3. Crea un archivo .env en la raíz con el siguiente contenido:
 
-MONGODB_URI=<tu cadena de conexión a MongoDB Atlas>
-JWT_SECRET=<una clave secreta para JWT>
+    MONGODB_URI=<tu cadena de conexión a MongoDB Atlas>
+    JWT_SECRET=<una clave secreta para JWT>
 
-3. Inicia el servidor:
-```bash
-npx nodemon server.js
-# o
-node server.js
-```
+4. Inicia el servidor:
+    ```bash
+    npx nodemon server.js
+    # o
+    node server.js
+    ```
 
-El API arrancará por defecto en http://localhost:5000.
+    El API arrancará por defecto en http://localhost:5000.
 
 ## Endpoints principales
 - POST /api/auth/register — Registro de usuario
